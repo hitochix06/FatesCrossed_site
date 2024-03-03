@@ -1,12 +1,22 @@
 <template>
   <div class="min-h-screen px-4 py-20 custom-bg">
-    <div class="max-w-7xl mx-auto grid grid-cols-2 gap-4">
-      <!-- Utilisation de grid pour créer deux colonnes -->
-      <!-- Colonne de gauche pour le texte -->
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
+      <!-- Modification ici pour une seule colonne sur petits écrans et deux colonnes à partir de medium -->
+      <div
+        class="flex justify-center md:justify-between-end items-center mb-4 md:mb-0"
+      >
+        <!-- Centrage du bouton sur petits écrans -->
+        <a
+          href="#download"
+          class="px-6 py-3 md:px-8 md:py-4 text-base md:text-lg font-semibold rounded-lg bg-gradient-to-r from-purple-600 to-pink-600 text-white hover:from-purple-700 hover:to-pink-700 transform hover:-translate-y-1 transition-all duration-300"
+        >
+          Rejoindre l'Aventure
+        </a>
+      </div>
       <div class="text-left">
         <!-- Texte aligné à droite -->
         <div
-          class="inline-block bg-white/10 backdrop-blur-md p-6 rounded-lg animate-zoom text"
+          class="inline-block bg-white/30 backdrop-blur-md p-6 rounded-lg animate-zoom text"
         >
           <p class="mt-4 text-xl leading-relaxed text-white">
             Dans ce jeu d'aventure captivant, incarnez un héros aux prises avec
@@ -20,16 +30,6 @@
             à percer les mystères qui vous entourent ?
           </p>
         </div>
-      </div>
-      <!-- Colonne de droite pour le bouton -->
-      <div class="flex justify-end items-center">
-        <!-- Bouton aligné à gauche, centré verticalement -->
-        <a
-          href="#download"
-          class="px-8 py-4 text-lg font-semibold rounded-lg bg-gradient-to-r from-purple-600 to-pink-600 text-white hover:from-purple-700 hover:to-pink-700 transform hover:-translate-y-1 transition-all duration-300"
-        >
-          Rejoindre l'Aventure
-        </a>
       </div>
     </div>
   </div>
