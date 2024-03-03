@@ -1,12 +1,12 @@
 <script setup>
-import Navigation from "./components/Navigation.vue";
 import Accueil from "./components/Accueil.vue";
+import Heros from "./components/Heros.vue";
 </script>
 
 <template>
   <div>
-    <Navigation />
     <Accueil />
+    <Heros />
   </div>
 </template>
 
