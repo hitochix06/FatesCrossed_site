@@ -1,9 +1,9 @@
 <template>
-  <div class="min-h-screen px-4 py-20 custom-bg">
+  <div class="min-h-screen px-4 py-10 custom-bg">
     <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
       <!-- Modification ici pour une seule colonne sur petits écrans et deux colonnes à partir de medium -->
       <div
-        class="flex justify-center md:justify-between-end items-center mt-20 mb-8 md:mb-0"
+        class="flex justify-center md:justify-between-end items-center mt-40 mb-8 md:mb-0"
       >
         <!-- Centrage du bouton sur petits écrans -->
         <a
@@ -16,7 +16,7 @@
       <div class="text-left">
         <!-- Texte aligné à droite -->
         <div
-          class="inline-block bg-white/10 backdrop-blur-md p-6 rounded-lg  text"
+          class="inline-block bg-white/10 backdrop-blur-md p-6 rounded-lg text"
         >
           <p class="mt-4 text-xl leading-relaxed text-white">
             Dans ce jeu d'aventure captivant, incarnez un héros aux prises avec
