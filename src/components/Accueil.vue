@@ -7,7 +7,8 @@
       >
         <!-- Centrage du bouton sur petits écrans -->
         <a
-          href="#download"
+          href="https://www.patreon.com/vitayok/posts"
+          target="_blank"
           class="px-6 py-3 md:px-8 md:py-4 text-base md:text-lg font-semibold rounded-lg bg-gradient-to-r from-purple-600 to-pink-600 text-white hover:from-purple-700 hover:to-pink-700 transform hover:-translate-y-1 transition-all duration-300"
         >
           Rejoindre l'Aventure
